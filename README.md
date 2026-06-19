@@ -15,7 +15,7 @@
 
 <br/>
 
-## <img src="assets/icons/h-about.svg" height="24" align="middle"/> &nbsp; About
+## <img src="assets/icons/h-about.svg" height="18" align="middle"/> &nbsp; About
 
 I'm a data scientist who works close to the metal of real systems: the pipelines, the queries, and the models that have to keep working after the demo is over. My day is equal parts engineering and analysis: standing up data infrastructure that's reliable, optimizing the slow parts, and building models whose results I can actually defend. I'm drawn to depth over flash, and right now I'm deliberately strengthening my classical ML and statistics foundations to go further.
 
@@ -27,13 +27,13 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 
 <br/>
 
-## <img src="assets/icons/h-stack.svg" height="24" align="middle"/> &nbsp; Tech Stack
+## <img src="assets/icons/h-stack.svg" height="18" align="middle"/> &nbsp; Tech Stack
 
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
 
-<img src="assets/icons/h-languages.svg" height="20" align="middle"/> &nbsp;**Languages**
+<img src="assets/icons/h-languages.svg" height="14" align="middle"/> &nbsp;**Languages**
 
 <img src="assets/icons/python.svg" width="46" height="46" alt="Python"/>
 <img src="assets/icons/sql.svg" width="46" height="46" alt="SQL"/>
@@ -48,7 +48,7 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 </td>
 <td valign="top" width="50%">
 
-<img src="assets/icons/h-ds.svg" height="20" align="middle"/> &nbsp;**Data Science & Machine Learning**
+<img src="assets/icons/h-ds.svg" height="14" align="middle"/> &nbsp;**Data Science & Machine Learning**
 
 <img src="assets/icons/python.svg" width="46" height="46" alt="Python"/>
 <img src="assets/icons/pytorch.svg" width="46" height="46" alt="PyTorch"/>
@@ -64,7 +64,7 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 <tr>
 <td valign="top" width="50%">
 
-<img src="assets/icons/h-dataeng.svg" height="20" align="middle"/> &nbsp;**Data Engineering & Databases**
+<img src="assets/icons/h-dataeng.svg" height="14" align="middle"/> &nbsp;**Data Engineering & Databases**
 
 <img src="assets/icons/fastapi.svg" width="46" height="46" alt="FastAPI"/>
 <img src="assets/icons/flask.svg" width="46" height="46" alt="Flask"/>
@@ -79,7 +79,7 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 </td>
 <td valign="top" width="50%">
 
-<img src="assets/icons/h-web.svg" height="20" align="middle"/> &nbsp;**Web & Automation**
+<img src="assets/icons/h-web.svg" height="14" align="middle"/> &nbsp;**Web & Automation**
 
 <img src="assets/icons/react.svg" width="46" height="46" alt="React"/>
 <img src="assets/icons/typescript.svg" width="46" height="46" alt="TypeScript"/>
@@ -96,7 +96,7 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 <tr>
 <td valign="top" width="50%">
 
-<img src="assets/icons/h-analytics.svg" height="20" align="middle"/> &nbsp;**Analytics & BI**
+<img src="assets/icons/h-analytics.svg" height="14" align="middle"/> &nbsp;**Analytics & BI**
 
 <img src="assets/icons/tableau.svg" width="46" height="46" alt="Tableau"/>
 <img src="assets/icons/powerbi.svg" width="46" height="46" alt="Power BI"/>
@@ -105,7 +105,7 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 </td>
 <td valign="top" width="50%">
 
-<img src="assets/icons/h-tools.svg" height="20" align="middle"/> &nbsp;**Tools**
+<img src="assets/icons/h-tools.svg" height="14" align="middle"/> &nbsp;**Tools**
 
 <img src="assets/icons/git.svg" width="46" height="46" alt="Git"/>
 <img src="assets/icons/github.svg" width="46" height="46" alt="GitHub"/>
@@ -121,9 +121,9 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 
 <br/>
 
-## <img src="assets/icons/h-work.svg" height="24" align="middle"/> &nbsp; Featured Work
+## <img src="assets/icons/h-work.svg" height="18" align="middle"/> &nbsp; Featured Work
 
-### <img src="assets/icons/h-neura.svg" height="22" align="middle"/> &nbsp; NEURA — Brain Tumor Segmentation
+### <img src="assets/icons/h-neura.svg" height="16" align="middle"/> &nbsp; NEURA — Brain Tumor Segmentation
 
 A deep-learning system for **3D MRI tumor segmentation**. An **nnU-Net v2** model trained on 350 BraTS 2021 cases across four MRI modalities, shipped as a web app that returns color-coded segmentation overlays with live evaluation metrics.
 
@@ -137,7 +137,7 @@ A deep-learning system for **3D MRI tumor segmentation**. An **nnU-Net v2** mode
 
 <br/>
 
-### <img src="assets/icons/h-platform.svg" height="22" align="middle"/> &nbsp; Operational Analytics Platform
+### <img src="assets/icons/h-platform.svg" height="16" align="middle"/> &nbsp; Operational Analytics Platform
 
 A single-window platform that replaced fragmented manual reporting. A **FastAPI + DuckDB-over-Parquet** backend serving sub-second analytical reads, fed by a three-stage pipeline (raw → enriched → mart).
 
