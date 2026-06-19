@@ -33,42 +33,39 @@ I take messy, large-scale operational data and turn it into things people actual
 
 ## &nbsp;🧰&nbsp; Tech Stack
 
-<div align="center">
-
-**⭐ Core** &nbsp;
-![Python](https://img.shields.io/badge/Python-2DD4BF?style=for-the-badge&logo=python&logoColor=0d1117&labelColor=0d1117)
-![SQL](https://img.shields.io/badge/SQL-2DD4BF?style=for-the-badge&logo=postgresql&logoColor=0d1117&labelColor=0d1117)
-![PyTorch](https://img.shields.io/badge/PyTorch-2DD4BF?style=for-the-badge&logo=pytorch&logoColor=0d1117&labelColor=0d1117)
-![FastAPI](https://img.shields.io/badge/FastAPI-2DD4BF?style=for-the-badge&logo=fastapi&logoColor=0d1117&labelColor=0d1117)
-![DuckDB](https://img.shields.io/badge/DuckDB-2DD4BF?style=for-the-badge&logo=duckdb&logoColor=0d1117&labelColor=0d1117)
-
-</div>
-
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
 
 **🧠 Machine Learning & Data Science**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+<img src="assets/icons/python.svg" height="40" alt="Python"/>&nbsp;
+<img src="assets/icons/pytorch.svg" height="40" alt="PyTorch"/>&nbsp;
+<img src="assets/icons/tensorflow.svg" height="40" alt="TensorFlow"/>&nbsp;
+<img src="assets/icons/keras.svg" height="40" alt="Keras"/>&nbsp;
+<img src="assets/icons/scikitlearn.svg" height="40" alt="scikit-learn"/>&nbsp;
+<img src="assets/icons/numpy.svg" height="40" alt="NumPy"/>&nbsp;
+<img src="assets/icons/pandas.svg" height="40" alt="pandas"/>&nbsp;
+<img src="assets/icons/scipy.svg" height="40" alt="SciPy"/>&nbsp;
+<img src="assets/icons/matplotlib.svg" height="40" alt="Matplotlib"/>&nbsp;
+<img src="assets/icons/opencv.svg" height="40" alt="OpenCV"/>&nbsp;
+<img src="assets/icons/jupyter.svg" height="40" alt="Jupyter"/>
 
 </td>
 <td valign="top" width="50%">
 
 **🗄️ Data Engineering & Databases**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white)
+<img src="assets/icons/fastapi.svg" height="40" alt="FastAPI"/>&nbsp;
+<img src="assets/icons/flask.svg" height="40" alt="Flask"/>&nbsp;
+<img src="assets/icons/postgresql.svg" height="40" alt="PostgreSQL"/>&nbsp;
+<img src="assets/icons/mysql.svg" height="40" alt="MySQL"/>&nbsp;
+<img src="assets/icons/sqlite.svg" height="40" alt="SQLite"/>&nbsp;
+<img src="assets/icons/sqlserver.svg" height="40" alt="SQL Server"/>&nbsp;
+<img src="assets/icons/duckdb.svg" height="40" alt="DuckDB"/>&nbsp;
+<img src="assets/icons/parquet.svg" height="40" alt="Parquet"/>&nbsp;
+<img src="assets/icons/redis.svg" height="40" alt="Redis"/>&nbsp;
+<img src="assets/icons/docker.svg" height="40" alt="Docker"/>
 
 </td>
 </tr>
@@ -77,23 +74,27 @@ I take messy, large-scale operational data and turn it into things people actual
 
 **🌐 Web & Automation**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Scrapy](https://img.shields.io/badge/Scrapy-60A839?style=flat-square&logo=scrapy&logoColor=white)
+<img src="assets/icons/react.svg" height="40" alt="React"/>&nbsp;
+<img src="assets/icons/typescript.svg" height="40" alt="TypeScript"/>&nbsp;
+<img src="assets/icons/javascript.svg" height="40" alt="JavaScript"/>&nbsp;
+<img src="assets/icons/html5.svg" height="40" alt="HTML5"/>&nbsp;
+<img src="assets/icons/css3.svg" height="40" alt="CSS3"/>&nbsp;
+<img src="assets/icons/tailwind.svg" height="40" alt="Tailwind CSS"/>&nbsp;
+<img src="assets/icons/selenium.svg" height="40" alt="Selenium"/>&nbsp;
+<img src="assets/icons/scrapy.svg" height="40" alt="Scrapy"/>
 
 </td>
 <td valign="top" width="50%">
 
 **📊 Analytics & BI**
 
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+<img src="assets/icons/tableau.svg" height="40" alt="Tableau"/>&nbsp;
+<img src="assets/icons/powerbi.svg" height="40" alt="Power BI"/>&nbsp;
+<img src="assets/icons/excel.svg" height="40" alt="Excel"/>&nbsp;
+<img src="assets/icons/python.svg" height="40" alt="Python"/>&nbsp;
+<img src="assets/icons/pandas.svg" height="40" alt="pandas"/>&nbsp;
+<img src="assets/icons/numpy.svg" height="40" alt="NumPy"/>&nbsp;
+<img src="assets/icons/r.svg" height="40" alt="R"/>
 
 </td>
 </tr>
@@ -102,22 +103,22 @@ I take messy, large-scale operational data and turn it into things people actual
 
 **💻 Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+<img src="assets/icons/python.svg" height="40" alt="Python"/>&nbsp;
+<img src="assets/icons/postgresql.svg" height="40" alt="SQL"/>&nbsp;
+<img src="assets/icons/c.svg" height="40" alt="C"/>&nbsp;
+<img src="assets/icons/cplusplus.svg" height="40" alt="C++"/>&nbsp;
+<img src="assets/icons/r.svg" height="40" alt="R"/>
 
 </td>
 <td valign="top" width="50%">
 
 **🛠️ Tools**
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white)
+<img src="assets/icons/git.svg" height="40" alt="Git"/>&nbsp;
+<img src="assets/icons/github.svg" height="40" alt="GitHub"/>&nbsp;
+<img src="assets/icons/docker.svg" height="40" alt="Docker"/>&nbsp;
+<img src="assets/icons/jupyter.svg" height="40" alt="Jupyter"/>&nbsp;
+<img src="assets/icons/anaconda.svg" height="40" alt="Anaconda"/>
 
 </td>
 </tr>
