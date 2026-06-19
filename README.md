@@ -35,29 +35,29 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-languages-d.svg"/><img src="assets/icons/h-languages.svg" height="30" alt="Languages"/></picture>
 
-<img src="assets/icons/python.svg" width="46" height="46" alt="Python"/>
-<img src="assets/icons/sql.svg" width="46" height="46" alt="SQL"/>
-<img src="assets/icons/c.svg" width="46" height="46" alt="C"/>
-<img src="assets/icons/cplusplus.svg" width="46" height="46" alt="C++"/>
-<img src="assets/icons/r.svg" width="46" height="46" alt="R"/>
-<img src="assets/icons/javascript.svg" width="46" height="46" alt="JavaScript"/>
-<img src="assets/icons/typescript.svg" width="46" height="46" alt="TypeScript"/>
-<img src="assets/icons/html5.svg" width="46" height="46" alt="HTML"/>
-<img src="assets/icons/css3.svg" width="46" height="46" alt="CSS"/>
+<img src="assets/icons/python.svg" width="46" height="46" title="Python" alt="Python"/>
+<img src="assets/icons/sql.svg" width="46" height="46" title="SQL" alt="SQL"/>
+<img src="assets/icons/c.svg" width="46" height="46" title="C" alt="C"/>
+<img src="assets/icons/cplusplus.svg" width="46" height="46" title="C++" alt="C++"/>
+<img src="assets/icons/r.svg" width="46" height="46" title="R" alt="R"/>
+<img src="assets/icons/javascript.svg" width="46" height="46" title="JavaScript" alt="JavaScript"/>
+<img src="assets/icons/typescript.svg" width="46" height="46" title="TypeScript" alt="TypeScript"/>
+<img src="assets/icons/html5.svg" width="46" height="46" title="HTML" alt="HTML"/>
+<img src="assets/icons/css3.svg" width="46" height="46" title="CSS" alt="CSS"/>
 
 </td>
 <td valign="top" width="50%">
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-ds-d.svg"/><img src="assets/icons/h-ds.svg" height="30" alt="Data Science &amp; Machine Learning"/></picture>
 
-<img src="assets/icons/python.svg" width="46" height="46" alt="Python"/>
-<img src="assets/icons/pytorch.svg" width="46" height="46" alt="PyTorch"/>
-<img src="assets/icons/tensorflow.svg" width="46" height="46" alt="TensorFlow"/>
-<img src="assets/icons/scikitlearn.svg" width="46" height="46" alt="scikit-learn"/>
-<img src="assets/icons/numpy.svg" width="46" height="46" alt="NumPy"/>
-<img src="assets/icons/pandas.svg" width="46" height="46" alt="pandas"/>
-<img src="assets/icons/matplotlib.svg" width="46" height="46" alt="Matplotlib"/>
-<img src="assets/icons/nnunet.svg" width="46" height="46" alt="nnU-Net v2"/>
+<img src="assets/icons/python.svg" width="46" height="46" title="Python" alt="Python"/>
+<img src="assets/icons/pytorch.svg" width="46" height="46" title="PyTorch" alt="PyTorch"/>
+<img src="assets/icons/tensorflow.svg" width="46" height="46" title="TensorFlow" alt="TensorFlow"/>
+<img src="assets/icons/scikitlearn.svg" width="46" height="46" title="scikit-learn" alt="scikit-learn"/>
+<img src="assets/icons/numpy.svg" width="46" height="46" title="NumPy" alt="NumPy"/>
+<img src="assets/icons/pandas.svg" width="46" height="46" title="pandas" alt="pandas"/>
+<img src="assets/icons/matplotlib.svg" width="46" height="46" title="Matplotlib" alt="Matplotlib"/>
+<img src="assets/icons/nnunet.svg" width="46" height="46" title="nnU-Net v2" alt="nnU-Net v2"/>
 
 </td>
 </tr>
@@ -66,30 +66,30 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-dataeng-d.svg"/><img src="assets/icons/h-dataeng.svg" height="30" alt="Data Engineering &amp; Databases"/></picture>
 
-<img src="assets/icons/fastapi.svg" width="46" height="46" alt="FastAPI"/>
-<img src="assets/icons/flask.svg" width="46" height="46" alt="Flask"/>
-<img src="assets/icons/sqlserver.svg" width="46" height="46" alt="SQL Server"/>
-<img src="assets/icons/postgresql.svg" width="46" height="46" alt="PostgreSQL"/>
-<img src="assets/icons/mysql.svg" width="46" height="46" alt="MySQL"/>
-<img src="assets/icons/sqlite.svg" width="46" height="46" alt="SQLite"/>
-<img src="assets/icons/duckdb.svg" width="46" height="46" alt="DuckDB"/>
-<img src="assets/icons/parquet.svg" width="46" height="46" alt="Parquet"/>
-<img src="assets/icons/etl.svg" width="46" height="46" alt="ETL pipelines"/>
+<img src="assets/icons/fastapi.svg" width="46" height="46" title="FastAPI" alt="FastAPI"/>
+<img src="assets/icons/flask.svg" width="46" height="46" title="Flask" alt="Flask"/>
+<img src="assets/icons/sqlserver.svg" width="46" height="46" title="SQL Server" alt="SQL Server"/>
+<img src="assets/icons/postgresql.svg" width="46" height="46" title="PostgreSQL" alt="PostgreSQL"/>
+<img src="assets/icons/mysql.svg" width="46" height="46" title="MySQL" alt="MySQL"/>
+<img src="assets/icons/sqlite.svg" width="46" height="46" title="SQLite" alt="SQLite"/>
+<img src="assets/icons/duckdb.svg" width="46" height="46" title="DuckDB" alt="DuckDB"/>
+<img src="assets/icons/parquet.svg" width="46" height="46" title="Parquet" alt="Parquet"/>
+<img src="assets/icons/etl.svg" width="46" height="46" title="ETL pipelines" alt="ETL pipelines"/>
 
 </td>
 <td valign="top" width="50%">
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-web-d.svg"/><img src="assets/icons/h-web.svg" height="30" alt="Web &amp; Automation"/></picture>
 
-<img src="assets/icons/react.svg" width="46" height="46" alt="React"/>
-<img src="assets/icons/typescript.svg" width="46" height="46" alt="TypeScript"/>
-<img src="assets/icons/javascript.svg" width="46" height="46" alt="JavaScript"/>
-<img src="assets/icons/html5.svg" width="46" height="46" alt="HTML"/>
-<img src="assets/icons/css3.svg" width="46" height="46" alt="CSS"/>
-<img src="assets/icons/tailwind.svg" width="46" height="46" alt="Tailwind CSS"/>
-<img src="assets/icons/vite.svg" width="46" height="46" alt="Vite"/>
-<img src="assets/icons/selenium.svg" width="46" height="46" alt="Selenium"/>
-<img src="assets/icons/scrapy.svg" width="46" height="46" alt="Scrapy"/>
+<img src="assets/icons/react.svg" width="46" height="46" title="React" alt="React"/>
+<img src="assets/icons/typescript.svg" width="46" height="46" title="TypeScript" alt="TypeScript"/>
+<img src="assets/icons/javascript.svg" width="46" height="46" title="JavaScript" alt="JavaScript"/>
+<img src="assets/icons/html5.svg" width="46" height="46" title="HTML" alt="HTML"/>
+<img src="assets/icons/css3.svg" width="46" height="46" title="CSS" alt="CSS"/>
+<img src="assets/icons/tailwind.svg" width="46" height="46" title="Tailwind CSS" alt="Tailwind CSS"/>
+<img src="assets/icons/vite.svg" width="46" height="46" title="Vite" alt="Vite"/>
+<img src="assets/icons/selenium.svg" width="46" height="46" title="Selenium" alt="Selenium"/>
+<img src="assets/icons/scrapy.svg" width="46" height="46" title="Scrapy" alt="Scrapy"/>
 
 </td>
 </tr>
@@ -98,22 +98,22 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-analytics-d.svg"/><img src="assets/icons/h-analytics.svg" height="30" alt="Analytics &amp; BI"/></picture>
 
-<img src="assets/icons/tableau.svg" width="46" height="46" alt="Tableau"/>
-<img src="assets/icons/powerbi.svg" width="46" height="46" alt="Power BI"/>
-<img src="assets/icons/excel.svg" width="46" height="46" alt="Excel"/>
+<img src="assets/icons/tableau.svg" width="46" height="46" title="Tableau" alt="Tableau"/>
+<img src="assets/icons/powerbi.svg" width="46" height="46" title="Power BI" alt="Power BI"/>
+<img src="assets/icons/excel.svg" width="46" height="46" title="Excel" alt="Excel"/>
 
 </td>
 <td valign="top" width="50%">
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-tools-d.svg"/><img src="assets/icons/h-tools.svg" height="30" alt="Tools"/></picture>
 
-<img src="assets/icons/git.svg" width="46" height="46" alt="Git"/>
-<img src="assets/icons/github.svg" width="46" height="46" alt="GitHub"/>
-<img src="assets/icons/jupyter.svg" width="46" height="46" alt="Jupyter"/>
-<img src="assets/icons/anaconda.svg" width="46" height="46" alt="Anaconda"/>
-<img src="assets/icons/codex.svg" width="46" height="46" alt="Codex"/>
-<img src="assets/icons/claude.svg" width="46" height="46" alt="Claude Code"/>
-<img src="assets/icons/copilot.svg" width="46" height="46" alt="GitHub Copilot"/>
+<img src="assets/icons/git.svg" width="46" height="46" title="Git" alt="Git"/>
+<img src="assets/icons/github.svg" width="46" height="46" title="GitHub" alt="GitHub"/>
+<img src="assets/icons/jupyter.svg" width="46" height="46" title="Jupyter" alt="Jupyter"/>
+<img src="assets/icons/anaconda.svg" width="46" height="46" title="Anaconda" alt="Anaconda"/>
+<img src="assets/icons/codex.svg" width="46" height="46" title="Codex" alt="Codex"/>
+<img src="assets/icons/claude.svg" width="46" height="46" title="Claude Code" alt="Claude Code"/>
+<img src="assets/icons/copilot.svg" width="46" height="46" title="GitHub Copilot" alt="GitHub Copilot"/>
 
 </td>
 </tr>
