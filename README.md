@@ -1,4 +1,4 @@
-<!-- ════════  HERO BANNER + enhanced Skills (6-section grid) & Work (metric badges)  ════════ -->
+<!-- ════════  HERO BANNER + Skills (uniform self-hosted SVG icons, 56px canvas) & Work (metric badges)  ════════ -->
 
 <div align="center">
 
@@ -37,88 +37,87 @@ I take messy, large-scale operational data and turn it into things people actual
 <tr>
 <td valign="top" width="50%">
 
-**🧠 Machine Learning & Data Science**
+**💻 Languages**
 
-<img src="assets/icons/python.svg" height="40" alt="Python"/>&nbsp;
-<img src="assets/icons/pytorch.svg" height="40" alt="PyTorch"/>&nbsp;
-<img src="assets/icons/tensorflow.svg" height="40" alt="TensorFlow"/>&nbsp;
-<img src="assets/icons/keras.svg" height="40" alt="Keras"/>&nbsp;
-<img src="assets/icons/scikitlearn.svg" height="40" alt="scikit-learn"/>&nbsp;
-<img src="assets/icons/numpy.svg" height="40" alt="NumPy"/>&nbsp;
-<img src="assets/icons/pandas.svg" height="40" alt="pandas"/>&nbsp;
-<img src="assets/icons/scipy.svg" height="40" alt="SciPy"/>&nbsp;
-<img src="assets/icons/matplotlib.svg" height="40" alt="Matplotlib"/>&nbsp;
-<img src="assets/icons/opencv.svg" height="40" alt="OpenCV"/>&nbsp;
-<img src="assets/icons/jupyter.svg" height="40" alt="Jupyter"/>
+<img src="assets/icons/python.svg" width="46" height="46" alt="Python"/>
+<img src="assets/icons/sql.svg" width="46" height="46" alt="SQL"/>
+<img src="assets/icons/c.svg" width="46" height="46" alt="C"/>
+<img src="assets/icons/cplusplus.svg" width="46" height="46" alt="C++"/>
+<img src="assets/icons/r.svg" width="46" height="46" alt="R"/>
+<img src="assets/icons/javascript.svg" width="46" height="46" alt="JavaScript"/>
+<img src="assets/icons/typescript.svg" width="46" height="46" alt="TypeScript"/>
+<img src="assets/icons/html5.svg" width="46" height="46" alt="HTML"/>
+<img src="assets/icons/css3.svg" width="46" height="46" alt="CSS"/>
 
 </td>
+<td valign="top" width="50%">
+
+**🧠 Data Science & Machine Learning**
+
+<img src="assets/icons/python.svg" width="46" height="46" alt="Python"/>
+<img src="assets/icons/pytorch.svg" width="46" height="46" alt="PyTorch"/>
+<img src="assets/icons/tensorflow.svg" width="46" height="46" alt="TensorFlow"/>
+<img src="assets/icons/scikitlearn.svg" width="46" height="46" alt="scikit-learn"/>
+<img src="assets/icons/numpy.svg" width="46" height="46" alt="NumPy"/>
+<img src="assets/icons/pandas.svg" width="46" height="46" alt="pandas"/>
+<img src="assets/icons/matplotlib.svg" width="46" height="46" alt="Matplotlib"/>
+<img src="assets/icons/nnunet.svg" width="46" height="46" alt="nnU-Net v2"/>
+
+</td>
+</tr>
+<tr>
 <td valign="top" width="50%">
 
 **🗄️ Data Engineering & Databases**
 
-<img src="assets/icons/fastapi.svg" height="40" alt="FastAPI"/>&nbsp;
-<img src="assets/icons/flask.svg" height="40" alt="Flask"/>&nbsp;
-<img src="assets/icons/postgresql.svg" height="40" alt="PostgreSQL"/>&nbsp;
-<img src="assets/icons/mysql.svg" height="40" alt="MySQL"/>&nbsp;
-<img src="assets/icons/sqlite.svg" height="40" alt="SQLite"/>&nbsp;
-<img src="assets/icons/sqlserver.svg" height="40" alt="SQL Server"/>&nbsp;
-<img src="assets/icons/duckdb.svg" height="40" alt="DuckDB"/>&nbsp;
-<img src="assets/icons/parquet.svg" height="40" alt="Parquet"/>&nbsp;
-<img src="assets/icons/redis.svg" height="40" alt="Redis"/>&nbsp;
-<img src="assets/icons/docker.svg" height="40" alt="Docker"/>
+<img src="assets/icons/fastapi.svg" width="46" height="46" alt="FastAPI"/>
+<img src="assets/icons/flask.svg" width="46" height="46" alt="Flask"/>
+<img src="assets/icons/sqlserver.svg" width="46" height="46" alt="SQL Server"/>
+<img src="assets/icons/postgresql.svg" width="46" height="46" alt="PostgreSQL"/>
+<img src="assets/icons/mysql.svg" width="46" height="46" alt="MySQL"/>
+<img src="assets/icons/sqlite.svg" width="46" height="46" alt="SQLite"/>
+<img src="assets/icons/duckdb.svg" width="46" height="46" alt="DuckDB"/>
+<img src="assets/icons/parquet.svg" width="46" height="46" alt="Parquet"/>
+<img src="assets/icons/etl.svg" width="46" height="46" alt="ETL pipelines"/>
 
 </td>
-</tr>
-<tr>
 <td valign="top" width="50%">
 
 **🌐 Web & Automation**
 
-<img src="assets/icons/react.svg" height="40" alt="React"/>&nbsp;
-<img src="assets/icons/typescript.svg" height="40" alt="TypeScript"/>&nbsp;
-<img src="assets/icons/javascript.svg" height="40" alt="JavaScript"/>&nbsp;
-<img src="assets/icons/html5.svg" height="40" alt="HTML5"/>&nbsp;
-<img src="assets/icons/css3.svg" height="40" alt="CSS3"/>&nbsp;
-<img src="assets/icons/tailwind.svg" height="40" alt="Tailwind CSS"/>&nbsp;
-<img src="assets/icons/selenium.svg" height="40" alt="Selenium"/>&nbsp;
-<img src="assets/icons/scrapy.svg" height="40" alt="Scrapy"/>
-
-</td>
-<td valign="top" width="50%">
-
-**📊 Analytics & BI**
-
-<img src="assets/icons/tableau.svg" height="40" alt="Tableau"/>&nbsp;
-<img src="assets/icons/powerbi.svg" height="40" alt="Power BI"/>&nbsp;
-<img src="assets/icons/excel.svg" height="40" alt="Excel"/>&nbsp;
-<img src="assets/icons/python.svg" height="40" alt="Python"/>&nbsp;
-<img src="assets/icons/pandas.svg" height="40" alt="pandas"/>&nbsp;
-<img src="assets/icons/numpy.svg" height="40" alt="NumPy"/>&nbsp;
-<img src="assets/icons/r.svg" height="40" alt="R"/>
+<img src="assets/icons/react.svg" width="46" height="46" alt="React"/>
+<img src="assets/icons/typescript.svg" width="46" height="46" alt="TypeScript"/>
+<img src="assets/icons/javascript.svg" width="46" height="46" alt="JavaScript"/>
+<img src="assets/icons/html5.svg" width="46" height="46" alt="HTML"/>
+<img src="assets/icons/css3.svg" width="46" height="46" alt="CSS"/>
+<img src="assets/icons/tailwind.svg" width="46" height="46" alt="Tailwind CSS"/>
+<img src="assets/icons/vite.svg" width="46" height="46" alt="Vite"/>
+<img src="assets/icons/selenium.svg" width="46" height="46" alt="Selenium"/>
+<img src="assets/icons/scrapy.svg" width="46" height="46" alt="Scrapy"/>
 
 </td>
 </tr>
 <tr>
 <td valign="top" width="50%">
 
-**💻 Languages**
+**📊 Analytics & BI**
 
-<img src="assets/icons/python.svg" height="40" alt="Python"/>&nbsp;
-<img src="assets/icons/postgresql.svg" height="40" alt="SQL"/>&nbsp;
-<img src="assets/icons/c.svg" height="40" alt="C"/>&nbsp;
-<img src="assets/icons/cplusplus.svg" height="40" alt="C++"/>&nbsp;
-<img src="assets/icons/r.svg" height="40" alt="R"/>
+<img src="assets/icons/tableau.svg" width="46" height="46" alt="Tableau"/>
+<img src="assets/icons/powerbi.svg" width="46" height="46" alt="Power BI"/>
+<img src="assets/icons/excel.svg" width="46" height="46" alt="Excel"/>
 
 </td>
 <td valign="top" width="50%">
 
 **🛠️ Tools**
 
-<img src="assets/icons/git.svg" height="40" alt="Git"/>&nbsp;
-<img src="assets/icons/github.svg" height="40" alt="GitHub"/>&nbsp;
-<img src="assets/icons/docker.svg" height="40" alt="Docker"/>&nbsp;
-<img src="assets/icons/jupyter.svg" height="40" alt="Jupyter"/>&nbsp;
-<img src="assets/icons/anaconda.svg" height="40" alt="Anaconda"/>
+<img src="assets/icons/git.svg" width="46" height="46" alt="Git"/>
+<img src="assets/icons/github.svg" width="46" height="46" alt="GitHub"/>
+<img src="assets/icons/jupyter.svg" width="46" height="46" alt="Jupyter"/>
+<img src="assets/icons/anaconda.svg" width="46" height="46" alt="Anaconda"/>
+<img src="assets/icons/codex.svg" width="46" height="46" alt="Codex"/>
+<img src="assets/icons/claude.svg" width="46" height="46" alt="Claude Code"/>
+<img src="assets/icons/copilot.svg" width="46" height="46" alt="GitHub Copilot"/>
 
 </td>
 </tr>
