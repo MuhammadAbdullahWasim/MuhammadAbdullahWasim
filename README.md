@@ -11,9 +11,9 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/muhammadabdullahwasim/"><img src="https://img.shields.io/badge/LinkedIn-muhammadabdullahwasim-1F2A37?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn — muhammadabdullahwasim"/></a>
-<a href="mailto:maw180604@gmail.com"><img src="https://img.shields.io/badge/Email-maw180604@gmail.com-1F2A37?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email maw180604@gmail.com"/></a>
-<img src="https://komarev.com/ghpvc/?username=MuhammadAbdullahWasim&style=for-the-badge&color=2DD4BF&labelColor=1F2A37&label=Profile+Views" alt="profile views"/>
+<a href="https://www.linkedin.com/in/muhammadabdullahwasim/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:maw180604@gmail.com"><img src="https://img.shields.io/badge/maw180604@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email maw180604@gmail.com"/></a>
+<img src="https://komarev.com/ghpvc/?username=MuhammadAbdullahWasim&style=flat-square&color=2DD4BF&label=Profile+Views" alt="profile views"/>
 
 </div>
 
