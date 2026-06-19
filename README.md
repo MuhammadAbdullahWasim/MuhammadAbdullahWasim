@@ -1,4 +1,4 @@
-<!-- ════════════════  DESIGN 3 · HERO BANNER (self-hosted SVG)  ════════════════ -->
+<!-- ════════  HERO BANNER + enhanced Skills (6-section grid) & Work (metric badges)  ════════ -->
 
 <div align="center">
 
@@ -33,11 +33,22 @@ I take messy, large-scale operational data and turn it into things people actual
 
 ## &nbsp;🧰&nbsp; Tech Stack
 
+<div align="center">
+
+**⭐ Core** &nbsp;
+![Python](https://img.shields.io/badge/Python-2DD4BF?style=for-the-badge&logo=python&logoColor=0d1117&labelColor=0d1117)
+![SQL](https://img.shields.io/badge/SQL-2DD4BF?style=for-the-badge&logo=postgresql&logoColor=0d1117&labelColor=0d1117)
+![PyTorch](https://img.shields.io/badge/PyTorch-2DD4BF?style=for-the-badge&logo=pytorch&logoColor=0d1117&labelColor=0d1117)
+![FastAPI](https://img.shields.io/badge/FastAPI-2DD4BF?style=for-the-badge&logo=fastapi&logoColor=0d1117&labelColor=0d1117)
+![DuckDB](https://img.shields.io/badge/DuckDB-2DD4BF?style=for-the-badge&logo=duckdb&logoColor=0d1117&labelColor=0d1117)
+
+</div>
+
 <table width="100%">
 <tr>
 <td valign="top" width="50%">
 
-**🧠 ML & Data Science**
+**🧠 Machine Learning & Data Science**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -49,18 +60,33 @@ I take messy, large-scale operational data and turn it into things people actual
 </td>
 <td valign="top" width="50%">
 
-**🗄️ Data Engineering**
+**🗄️ Data Engineering & Databases**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </td>
 </tr>
 <tr>
+<td valign="top" width="50%">
+
+**🌐 Web & Automation**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Scrapy](https://img.shields.io/badge/Scrapy-60A839?style=flat-square&logo=scrapy&logoColor=white)
+
+</td>
 <td valign="top" width="50%">
 
 **📊 Analytics & BI**
@@ -70,15 +96,28 @@ I take messy, large-scale operational data and turn it into things people actual
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
 </td>
+</tr>
+<tr>
 <td valign="top" width="50%">
 
-**🧪 Languages & Tools**
+**💻 Languages**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+
+</td>
+<td valign="top" width="50%">
+
+**🛠️ Tools**
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat-square&logo=anaconda&logoColor=white)
 
 </td>
 </tr>
@@ -88,28 +127,31 @@ I take messy, large-scale operational data and turn it into things people actual
 
 ## &nbsp;🚀&nbsp; Featured Work
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🧠 &nbsp; NEURA — Brain Tumor Segmentation
 
-#### 🧠 NEURA — Brain Tumor Segmentation
-3D MRI tumor segmentation with an **nnU-Net v2** model trained on 350 BraTS 2021 cases across four modalities — **0.92 Whole-Tumor Dice**, shipped as a web app with color-coded overlays and metrics.
+A deep-learning system for **3D MRI tumor segmentation**. An **nnU-Net v2** model trained on 350 BraTS 2021 cases across four MRI modalities, shipped as a web app that returns color-coded segmentation overlays with live evaluation metrics.
 
-`PyTorch` · `nnU-Net v2` · `Flask`
-<sub>🔒 Opens after degree completion</sub>
+![Dice](https://img.shields.io/badge/Whole--Tumor_Dice-0.92-2DD4BF?style=flat-square&labelColor=0d1117)
+![Cases](https://img.shields.io/badge/BraTS_2021-350_cases-2DD4BF?style=flat-square&labelColor=0d1117)
+![Modalities](https://img.shields.io/badge/MRI_modalities-4-2DD4BF?style=flat-square&labelColor=0d1117)
+![Model](https://img.shields.io/badge/Architecture-nnU--Net_v2-2DD4BF?style=flat-square&labelColor=0d1117)
+&nbsp;&nbsp;&nbsp; <kbd>PyTorch</kbd> <kbd>Flask</kbd>
 
-</td>
-<td width="50%" valign="top">
+<sub>🔒 Repository opens after degree completion (academic policy)</sub>
 
-#### 📊 Operational Analytics Platform
-A **FastAPI + DuckDB-over-Parquet** backend serving sub-500ms reads, fed by a three-stage pipeline, with an extraction query over **~16M rows** verified byte-identical to the original.
+<br/>
 
-`FastAPI` · `DuckDB` · `Parquet`
+### 📊 &nbsp; Operational Analytics Platform
+
+A single-window platform that replaced fragmented manual reporting. A **FastAPI + DuckDB-over-Parquet** backend serving sub-second analytical reads, fed by a three-stage pipeline (raw → enriched → mart).
+
+![Rows](https://img.shields.io/badge/Scanned-~16M_rows-2DD4BF?style=flat-square&labelColor=0d1117)
+![Latency](https://img.shields.io/badge/Reads-sub--500ms-2DD4BF?style=flat-square&labelColor=0d1117)
+![Pipeline](https://img.shields.io/badge/Pipeline-3--stage-2DD4BF?style=flat-square&labelColor=0d1117)
+![Output](https://img.shields.io/badge/Output-byte--identical-2DD4BF?style=flat-square&labelColor=0d1117)
+&nbsp;&nbsp;&nbsp; <kbd>FastAPI</kbd> <kbd>DuckDB</kbd> <kbd>Parquet</kbd>
+
 <sub>💼 Built in a professional setting</sub>
-
-</td>
-</tr>
-</table>
 
 <br/>
 
