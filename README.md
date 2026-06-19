@@ -153,9 +153,7 @@ A single-window platform that replaced fragmented manual reporting. A **FastAPI 
 
 <div align="center">
 
-### Let's connect
-
-I'm open to data science & ML roles, remote or open to relocation.
+Open to data science & ML roles, remote or relocation.
 
 <a href="https://www.linkedin.com/messaging/compose/?recipient=muhammadabdullahwasim"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn"/></a>
 
