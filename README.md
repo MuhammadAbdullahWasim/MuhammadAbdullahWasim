@@ -7,10 +7,6 @@
 <br/>
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=620&lines=I+turn+messy+data+into+production+systems;Models+%E2%80%A2+Pipelines+%E2%80%A2+Analytics+platforms;Currently+deepening+classical+ML+%26+stats" alt="tagline" />
-
-<br/>
-
 <a href="https://www.linkedin.com/in/muhammadabdullahwasim/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:maw180604@gmail.com"><img src="https://img.shields.io/badge/maw180604@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email maw180604@gmail.com"/></a>
 <img src="https://komarev.com/ghpvc/?username=MuhammadAbdullahWasim&style=flat-square&color=2DD4BF&label=Profile+Views" alt="profile views"/>
@@ -21,7 +17,7 @@
 
 ## &nbsp;🧭&nbsp; About
 
-I take messy, large-scale operational data and turn it into things people actually use — models, automated pipelines, and analytics platforms that reach production. I care less about clever notebooks and more about systems that hold up once they're live.
+I'm a data scientist who works close to the metal of real systems: the pipelines, the queries, and the models that have to keep working after the demo is over. My day is equal parts engineering and analysis: standing up data infrastructure that's reliable, optimizing the slow parts, and building models whose results I can actually defend. I'm drawn to depth over flash, and right now I'm deliberately strengthening my classical ML and statistics foundations to go further.
 
 ```
 →  Self-hosted analytics platforms · pipelines (raw → enriched → mart) · sub-second SQL over millions of rows
@@ -155,19 +151,12 @@ A single-window platform that replaced fragmented manual reporting. A **FastAPI 
 
 <br/>
 
-## &nbsp;📈&nbsp; Activity
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadAbdullahWasim&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=ffffff&area_color=0d9488&area=true&hide_border=true&grid=false&custom_title=Contribution%20Activity"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadAbdullahWasim&bg_color=ffffff&color=0f766e&line=0d9488&point=0f766e&area_color=99f6e4&area=true&hide_border=true&grid=false&custom_title=Contribution%20Activity"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MuhammadAbdullahWasim&bg_color=0d1117&color=2dd4bf&line=2dd4bf&point=ffffff&area_color=0d9488&area=true&hide_border=true&grid=false&custom_title=Contribution%20Activity" width="100%" alt="activity graph"/>
-</picture>
+### Let's connect
 
-<br/>
-<br/>
+I'm open to data science & ML roles, remote or open to relocation.
 
-<sub>💡 Open to data science & ML opportunities · 📍 Lahore, Pakistan</sub>
+<a href="https://www.linkedin.com/messaging/compose/?recipient=muhammadabdullahwasim"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn"/></a>
 
 </div>
