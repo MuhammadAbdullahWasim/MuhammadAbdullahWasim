@@ -1,0 +1,13 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Python (NEURA / analytics tooling)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
