@@ -125,29 +125,68 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-neura-d.svg"/><img src="assets/icons/h-neura.svg" height="36" alt="NEURA - Brain Tumor Segmentation"/></picture>
 
-A deep-learning system for **3D MRI tumor segmentation**. An **nnU-Net v2** model trained on 350 BraTS 2021 cases across four MRI modalities, shipped as a web app that returns color-coded segmentation overlays with live evaluation metrics.
+A deep-learning system I built for 3D MRI brain tumor segmentation. It trains an nnU-Net v2 full-resolution model on 350 BraTS 2021 cases across four MRI modalities (FLAIR, T1, T1ce, T2), running 500 epochs inside Kaggle T4 GPU session limits and benchmarked against a from-scratch 3D U-Net baseline. The full preprocessing pipeline (NIfTI loading, z-score normalization, resampling, one-hot encoding, augmentation) and a combined Dice and Cross-Entropy loss with AdamW are implemented end to end. The model ships inside NEURA, a Flask web app with a complete inference pipeline, in-memory result caching, and an admin panel that returns color-coded segmentation overlays with per-case Dice and IoU against ground truth.
 
-![Dice](https://img.shields.io/badge/Whole--Tumor_Dice-0.92-2DD4BF?style=flat-square&labelColor=0d1117)
-![Cases](https://img.shields.io/badge/BraTS_2021-350_cases-2DD4BF?style=flat-square&labelColor=0d1117)
-![Modalities](https://img.shields.io/badge/MRI_modalities-4-2DD4BF?style=flat-square&labelColor=0d1117)
-![Model](https://img.shields.io/badge/Architecture-nnU--Net_v2-2DD4BF?style=flat-square&labelColor=0d1117)
-&nbsp;&nbsp;&nbsp; <kbd>PyTorch</kbd> <kbd>Flask</kbd>
+![Whole-Tumor Dice](https://img.shields.io/badge/Whole--Tumor_Dice-0.92-1abc9c?style=flat-square)
+![Tumor Core Dice](https://img.shields.io/badge/Tumor_Core_Dice-0.85-1abc9c?style=flat-square)
+![Enhancing Tumor Dice](https://img.shields.io/badge/Enhancing_Tumor_Dice-0.82-1abc9c?style=flat-square)
+![Data](https://img.shields.io/badge/BraTS_2021-350_cases-1abc9c?style=flat-square)
+![Modalities](https://img.shields.io/badge/MRI_modalities-4-1abc9c?style=flat-square)
+![Architecture](https://img.shields.io/badge/Architecture-nnU--Net_v2-1abc9c?style=flat-square)
 
-<sub>🔒 Repository opens after degree completion (academic policy)</sub>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+
+> 🔒 Repository opens after degree completion (academic policy)
 
 <br/>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-platform-d.svg"/><img src="assets/icons/h-platform.svg" height="36" alt="Operational Analytics Platform"/></picture>
 
-A single-window platform that replaced fragmented manual reporting. A **FastAPI + DuckDB-over-Parquet** backend serving sub-second analytical reads, fed by a three-stage pipeline (raw → enriched → mart).
+A single-window platform I built to replace fragmented manual reporting, giving the operations team self-serve access to every KPI and the case-level detail behind it. A FastAPI backend queries DuckDB directly over partitioned Parquet, fed by a medallion pipeline (raw, enriched, mart). The core win: I redesigned the aggregation layer around a one-row-per-case model with precomputed flags, which turns every dashboard block into a simple additive count instead of an expensive COUNT(DISTINCT). That cut the main detail page to under a second (roughly 8 to 10x faster), with the rebuilt output verified byte-identical to the original and every metric validated against the legacy Tableau reports. The extraction query it rebuilt pivots over roughly 16M rows. In use today, it retired 6 Tableau workbooks and 8 to 10 hours a week of manual reporting.
 
-![Rows](https://img.shields.io/badge/Scanned-~16M_rows-2DD4BF?style=flat-square&labelColor=0d1117)
-![Latency](https://img.shields.io/badge/Reads-sub--500ms-2DD4BF?style=flat-square&labelColor=0d1117)
-![Pipeline](https://img.shields.io/badge/Pipeline-3--stage-2DD4BF?style=flat-square&labelColor=0d1117)
-![Output](https://img.shields.io/badge/Output-byte--identical-2DD4BF?style=flat-square&labelColor=0d1117)
-&nbsp;&nbsp;&nbsp; <kbd>FastAPI</kbd> <kbd>DuckDB</kbd> <kbd>Parquet</kbd>
+![Speed](https://img.shields.io/badge/Detail_page-8--10x_faster-1abc9c?style=flat-square)
+![Load time](https://img.shields.io/badge/Load_time-sub--second-1abc9c?style=flat-square)
+![Output](https://img.shields.io/badge/Rebuilt_output-byte--identical-1abc9c?style=flat-square)
+![Sources](https://img.shields.io/badge/Sources_unified-7-1abc9c?style=flat-square)
+![Saved](https://img.shields.io/badge/Manual_reporting-8--10_hrs_weekly_cut-1abc9c?style=flat-square)
 
-<sub>💼 Built in a professional setting</sub>
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Parquet](https://img.shields.io/badge/Apache_Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+> 💼 Built in a professional setting
+
+<br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-radiology-d.svg"/><img src="assets/icons/h-radiology.svg" height="36" alt="Radiology Analytics App"/></picture>
+
+A web app I built that breaks radiology turnaround down by workflow stage, radiologist, modality, and shift, refreshed hourly in place of the old weekly reports. The depth surfaced exactly where cases were stalling past a 24-hour SLA, and acting on those bottlenecks cut turnaround by more than 75%, to well under the SLA. Includes a geographic view across centers and a searchable, filterable case browser.
+
+![Turnaround](https://img.shields.io/badge/Turnaround-cut_over_75%25-1abc9c?style=flat-square)
+![Detail](https://img.shields.io/badge/Detail-per--stage_and_staff-1abc9c?style=flat-square)
+![Refresh](https://img.shields.io/badge/Refresh-hourly-1abc9c?style=flat-square)
+![SLA](https://img.shields.io/badge/SLA-24h-1abc9c?style=flat-square)
+
+> 💼 Built in a professional setting
+
+<br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-chatlens-d.svg"/><img src="assets/icons/h-chatlens.svg" height="36" alt="ChatLens - Chat Intelligence"/></picture>
+
+An LLM-integrated tool I built that turns long WhatsApp chat exports into structured business summaries: action items, decisions, blockers, and open follow-ups, from both a client-facing and an internal view. It pairs a fully local rule-based engine (English and Roman-Urdu) with a Claude or OpenAI API layer for richer natural-language summaries, and includes a parser that handles both Android and iOS export formats with automatic date detection, plus PDF export.
+
+![Engine](https://img.shields.io/badge/Engine-rule--based_and_LLM-1abc9c?style=flat-square)
+![Languages](https://img.shields.io/badge/Languages-English_and_Roman--Urdu-1abc9c?style=flat-square)
+![Parsers](https://img.shields.io/badge/Parsers-Android_and_iOS-1abc9c?style=flat-square)
+![Export](https://img.shields.io/badge/Export-PDF-1abc9c?style=flat-square)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Claude](https://img.shields.io/badge/Anthropic-Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?style=flat-square&logo=openai&logoColor=white)
 
 <br/>
 
