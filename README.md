@@ -2,13 +2,13 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Muhammad Abdullah — Data Scientist · Machine Learning · Analytics Engineering"/>
+<img src="assets/banner.svg" width="100%" alt="Muhammad Abdullah · Data Scientist · Machine Learning · Analytics Engineering"/>
 
 <br/>
 <br/>
 
-<a href="https://www.linkedin.com/in/muhammadabdullahwasim/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:maw180604@gmail.com"><img src="https://img.shields.io/badge/maw180604@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email maw180604@gmail.com"/></a>
+<a href="https://www.linkedin.com/in/muhammadabdullahwasim/"><img src="assets/badges/b-linkedin.svg" alt="LinkedIn"/></a>
+<a href="mailto:maw180604@gmail.com"><img src="assets/badges/b-email.svg" alt="Email maw180604@gmail.com"/></a>
 <img src="https://komarev.com/ghpvc/?username=MuhammadAbdullahWasim&style=flat-square&color=2DD4BF&label=Profile+Views" alt="profile views"/>
 
 </div>
@@ -125,29 +125,77 @@ I'm a data scientist who works close to the metal of real systems: the pipelines
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-neura-d.svg"/><img src="assets/icons/h-neura.svg" height="36" alt="NEURA - Brain Tumor Segmentation"/></picture>
 
-A deep-learning system for **3D MRI tumor segmentation**. An **nnU-Net v2** model trained on 350 BraTS 2021 cases across four MRI modalities, shipped as a web app that returns color-coded segmentation overlays with live evaluation metrics.
+*A deep-learning system for 3D brain tumor segmentation from MRI, carried from training to a working app instead of left in a notebook.*
 
-![Dice](https://img.shields.io/badge/Whole--Tumor_Dice-0.92-2DD4BF?style=flat-square&labelColor=0d1117)
-![Cases](https://img.shields.io/badge/BraTS_2021-350_cases-2DD4BF?style=flat-square&labelColor=0d1117)
-![Modalities](https://img.shields.io/badge/MRI_modalities-4-2DD4BF?style=flat-square&labelColor=0d1117)
-![Model](https://img.shields.io/badge/Architecture-nnU--Net_v2-2DD4BF?style=flat-square&labelColor=0d1117)
-&nbsp;&nbsp;&nbsp; <kbd>PyTorch</kbd> <kbd>Flask</kbd>
+Trained an **nnU-Net v2** full-resolution model on **BraTS 2021** across **four MRI modalities** to a **0.92 whole-tumor Dice**, benchmarked against a from-scratch **3D U-Net** baseline, and trained inside Kaggle **T4** session limits. Built the full preprocessing and evaluation pipeline **end to end** (NIfTI loading, z-score normalization, resampling, augmentation, combined **Dice and Cross-Entropy loss** with **AdamW**). Shipped the trained model inside **NEURA**, a **Flask** app serving live inference that returns color-coded segmentation overlays scored against ground truth.
 
-<sub>🔒 Repository opens after degree completion (academic policy)</sub>
+![Whole-Tumor Dice 0.92](assets/badges/m-dice-wt.svg)
+![Tumor Core 0.85](assets/badges/m-dice-tc.svg)
+![Enhancing Tumor 0.82](assets/badges/m-dice-et.svg)
+
+![PyTorch](assets/badges/t-pytorch.svg)
+![Flask](assets/badges/t-flask.svg)
+![SQLite](assets/badges/t-sqlite.svg)
+![CUDA](assets/badges/t-cuda.svg)
+
+> 🔒 Repository opens after degree completion (academic policy)
 
 <br/>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-platform-d.svg"/><img src="assets/icons/h-platform.svg" height="36" alt="Operational Analytics Platform"/></picture>
 
-A single-window platform that replaced fragmented manual reporting. A **FastAPI + DuckDB-over-Parquet** backend serving sub-second analytical reads, fed by a three-stage pipeline (raw → enriched → mart).
+*A single-window platform that put self-serve KPI analytics in the operations team's hands, replacing fragmented manual reporting.*
 
-![Rows](https://img.shields.io/badge/Scanned-~16M_rows-2DD4BF?style=flat-square&labelColor=0d1117)
-![Latency](https://img.shields.io/badge/Reads-sub--500ms-2DD4BF?style=flat-square&labelColor=0d1117)
-![Pipeline](https://img.shields.io/badge/Pipeline-3--stage-2DD4BF?style=flat-square&labelColor=0d1117)
-![Output](https://img.shields.io/badge/Output-byte--identical-2DD4BF?style=flat-square&labelColor=0d1117)
-&nbsp;&nbsp;&nbsp; <kbd>FastAPI</kbd> <kbd>DuckDB</kbd> <kbd>Parquet</kbd>
+Replaced delayed weekly and monthly reporting with **on-demand access to every KPI** and the case-level detail behind it. Redesigned the aggregation layer around a **one-row-per-case model** with precomputed flags, turning expensive distinct-count operations into simple additive counts, which made the main detail page **roughly 8 to 10x faster** with output **byte-identical** to the legacy reports. Unified **7 separate sources** into one cleaned, schema-validated feed on a **FastAPI** backend querying **DuckDB** over partitioned **Parquet**, fed by a **raw-enriched-mart** pipeline. Retired **6 Tableau workbooks** and **8 to 10 hours a week** of manual reporting.
 
-<sub>💼 Built in a professional setting</sub>
+![Detail page 8 to 10x faster](assets/badges/m-speed.svg)
+![Output byte-identical](assets/badges/m-byte.svg)
+![Sources 7 unified](assets/badges/m-sources.svg)
+
+![FastAPI](assets/badges/t-fastapi.svg)
+![DuckDB](assets/badges/t-duckdb.svg)
+![Parquet](assets/badges/t-parquet.svg)
+![Python](assets/badges/t-python.svg)
+
+> 💼 Built in a professional setting
+
+<br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-radiology-d.svg"/><img src="assets/icons/h-radiology.svg" height="36" alt="Radiology Analytics App"/></picture>
+
+*A web app that broke radiology turnaround down deep enough to find exactly where cases were stalling.*
+
+Broke radiology turnaround down by **workflow stage, radiologist, modality, and shift**, refreshed **hourly** in place of the old weekly reports that showed only the headline number. Surfaced exactly where cases were stalling past a **24-hour SLA**, and acting on those bottlenecks **cut turnaround by more than 75%**, to well under the SLA. Added a geographic view across centers and a searchable, filterable case browser.
+
+![Turnaround cut over 75%](assets/badges/m-turnaround.svg)
+![Refresh hourly](assets/badges/m-refresh.svg)
+![SLA 24h](assets/badges/m-sla.svg)
+
+![Python](assets/badges/t-python.svg)
+![FastAPI](assets/badges/t-fastapi.svg)
+![pandas](assets/badges/t-pandas.svg)
+![Chart.js](assets/badges/t-chartjs.svg)
+![Leaflet](assets/badges/t-leaflet.svg)
+
+> 💼 Built in a professional setting
+
+<br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-chatlens-d.svg"/><img src="assets/icons/h-chatlens.svg" height="36" alt="ChatLens - Chat Intelligence"/></picture>
+
+*An LLM-integrated tool that turns long WhatsApp exports into a clear record of what was promised and what is still open.*
+
+Turns long WhatsApp chat exports into **structured business summaries** covering **action items, decisions, blockers, and open follow-ups**, from both a client-facing and an internal-team view. Pairs a fully local **rule-based engine** (English and Roman-Urdu) for in-browser processing with an optional **Claude or OpenAI API** layer for richer natural-language summaries. Parses both **Android and iOS** export formats with automatic date detection, and exports to **PDF**.
+
+![Engine rule-based and LLM](assets/badges/m-engine.svg)
+![Languages English and Roman-Urdu](assets/badges/m-langs.svg)
+![Export PDF](assets/badges/m-export.svg)
+
+![JavaScript](assets/badges/t-javascript.svg)
+![Claude](assets/badges/t-claude.svg)
+![OpenAI](assets/badges/t-openai.svg)
+
+> 💼 Built in a professional setting
 
 <br/>
 
@@ -155,6 +203,6 @@ A single-window platform that replaced fragmented manual reporting. A **FastAPI 
 
 Open to data science & ML roles, remote or relocation.
 
-<a href="https://www.linkedin.com/messaging/compose/?recipient=muhammadabdullahwasim"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn"/></a>
+<a href="https://www.linkedin.com/messaging/compose/?recipient=muhammadabdullahwasim"><img src="assets/badges/b-cta.svg" alt="Message me on LinkedIn"/></a>
 
 </div>
