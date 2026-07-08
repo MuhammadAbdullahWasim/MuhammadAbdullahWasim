@@ -9,11 +9,11 @@ How the GitHub profile (`README.md` on `main`) was designed and built, the techn
 ## Final structure (top → bottom)
 
 1. **Hero banner** — self-hosted SVG (`assets/banner.svg`)
-2. **Contact row** — LinkedIn · email · profile-views badges
+2. **Contact row** — LinkedIn · email (self-hosted badges) · profile-views (live)
 3. **About** — baked icon heading + intro paragraph + a `→` focus list
 4. **Tech Stack** — baked icon headings + uniform self-hosted brand icons (6 categories)
-5. **Featured Work** — NEURA and Operational Analytics Platform, each with metric badges + `<kbd>` tech keys
-6. **Footer CTA** — one line + a LinkedIn "Message me" (DM-compose) button
+5. **Featured Work** — four projects (NEURA, Operational Analytics Platform, Radiology Analytics App, ChatLens), each with a hook line, a bolded description, and self-hosted metric + tech badges
+6. **Footer CTA** — one line + a self-hosted LinkedIn "Message me" (DM-compose) button
 
 ---
 
@@ -24,12 +24,12 @@ Hand-authored static SVG: diagonal teal gradient, two soft radial "glow" orbs, d
 **Why self-hosted:** banner generators (capsule-render) returned broken SVGs — empty wave paths (`d=""`) and styling locked in a `<style>` block that GitHub's sanitizer strips — so the name vanished. A committed static SVG renders reliably and is fully under our control.
 
 ### Contact row
-`shields.io` **flat-square** badges:
+**Self-hosted flat-square** SVG badges (`assets/badges/b-*.svg`):
 - **LinkedIn** — logo + word, links to the profile.
 - **Email** — shows the address (lowercase), `mailto:` link.
-- **Profile Views** — komarev counter, teal.
+- **Profile Views** — komarev counter, teal. This is the **only** image still fetched at runtime (live data, can't be self-hosted).
 
-**Why flat-square:** the bold `for-the-badge` style force-uppercases text, which made the email render `MAW180604@GMAIL.COM`. flat-square preserves case and keeps all three badges consistent.
+**Why self-hosted:** originally `shields.io` badges; later baked into committed SVGs so a shields.io outage can't break the header. **Why flat-square:** the bold `for-the-badge` style force-uppercases text, which made the email render `MAW180604@GMAIL.COM`. flat-square preserves case and keeps the badges consistent.
 
 ### Section headings — baked icon + text SVGs
 Files: `assets/icons/h-<name>.svg` (light) and `assets/icons/h-<name>-d.svg` (dark), referenced via `<picture>` with `prefers-color-scheme`.
@@ -48,10 +48,11 @@ Real brand logos pulled from **open-source icon sets** — [simple-icons](https:
 - **Fallback glyphs (hand-drawn, no official logo exists):** SQL (database cylinder), nnU-Net v2 (neural net), ETL pipelines (pipeline flow). Codex → OpenAI logo; Claude Code → Claude logo; GitHub Copilot → its own logo.
 
 ### Featured Work
-Full-width cards. Achievements shown as `shields.io` metric badges (e.g., `Whole-Tumor Dice 0.92`, `~16M rows`, `sub-500ms`), tech shown as `<kbd>` keys.
+Four full-width project cards (NEURA, Operational Analytics Platform, Radiology Analytics App, ChatLens). Each = a baked heading icon + an italic **hook** line + a description with key metrics in **bold** + a row of **self-hosted metric badges** + a compact row of **self-hosted tech badges** + a one-line note (🔒 academic / 💼 professional).
+All badges are committed SVGs under `assets/badges/`: two-segment **metric** badges (gray label + teal value) and single-segment **tech** badges (brand color + embedded white/black logo). Logos are embedded from simple-icons; every text run uses SVG `textLength` + `lengthAdjust="spacingAndGlyphs"` so it can't clip regardless of the viewer's font.
 
 ### Footer CTA
-One centered line + a `for-the-badge` LinkedIn button linking to the DM-compose URL
+One centered line + a **self-hosted** `for-the-badge`-style LinkedIn button (`assets/badges/b-cta.svg`; 28px tall, uppercase, tracked) linking to the DM-compose URL
 (`https://www.linkedin.com/messaging/compose/?recipient=muhammadabdullahwasim`).
 
 ---
@@ -62,6 +63,9 @@ One centered line + a `for-the-badge` LinkedIn button linking to the DM-compose 
 - **GitHub sanitizes README HTML:** strips `<style>`/CSS, ignores `align` for vertical centering, and borders tables. This is what drove the baked-image heading approach and the self-hosted icons.
 - **Removed earlier experiments:** typing animation and the contribution-activity graph (duplicated GitHub's native graph), the streak widget and trophies (unreliable).
 - **Contribution-graph hygiene:** iteration history was squashed; design options were explored on non-default branches (commits there don't count toward the contribution graph).
+- **Self-host badges too, not just icons.** Every `shields.io` badge (project metrics, tech, header pills, CTA) is a committed SVG under `assets/badges/`, so a shields.io outage can't break rendering. Only the live komarev view counter stays external.
+- **Font-independent badge text.** Self-hosted badges pin each text run with `textLength` + `lengthAdjust="spacingAndGlyphs"`, because the viewer's fallback font (Arial/DejaVu, wider than Verdana) was overflowing/clipping the CTA.
+- **Contribution-graph phantoms need a repo re-create, not just a squash.** Rewriting `main` left ~20 orphaned June-18 commits in the object store that GitHub kept counting; deleting and re-creating the repo (pushing only the clean history) gave a fresh object store and dropped that day to its true count. The rendered graph is CDN-cached and can lag the corrected value (verify the truth via the GraphQL `contributionsCollection` API, not the cached page).
 
 ---
 
@@ -70,8 +74,11 @@ One centered line + a `for-the-badge` LinkedIn button linking to the DM-compose 
 | Path | What |
 |------|------|
 | `assets/banner.svg` | Hero banner (name + tagline) |
-| `assets/icons/h-*.svg` + `h-*-d.svg` | 11 baked section headings × 2 (light/dark) |
+| `assets/icons/h-*.svg` + `h-*-d.svg` | 13 baked section/project headings × 2 (light/dark) |
 | `assets/icons/<tool>.svg` | 40 normalized brand icons + 3 hand-drawn glyphs |
+| `assets/badges/m-*.svg` | 12 self-hosted metric badges (two-segment) |
+| `assets/badges/t-*.svg` | 14 self-hosted tech badges (brand color + embedded logo) |
+| `assets/badges/b-*.svg` | 3 self-hosted header/CTA badges (LinkedIn, email, DM button) |
 
 ---
 
@@ -81,6 +88,7 @@ One centered line + a `for-the-badge` LinkedIn button linking to the DM-compose 
 - **Change a heading (text/icon/color):** regenerate that heading's two SVGs (light + dark) — they bake the icon + text together; the README references them via `<picture>`.
 - **Brand icons** were fetched from simple-icons (jsdelivr) / devicon and normalized to the 56×56 canvas by a Python script; the heading icons were generated by a separate Python script (icon paths + text baked in, light/dark variants).
 - **Keep colors mid-tone** so they stay readable in both light and dark mode.
+- **Add/change a badge:** badges are committed SVGs in `assets/badges/`, generated by a Python script (Verdana text metrics via Pillow; simple-icons logos embedded and tinted; text pinned with `textLength`). Regenerate the affected `m-*`/`t-*`/`b-*` SVG rather than hand-editing.
 
 ---
 
@@ -94,3 +102,7 @@ One centered line + a `for-the-badge` LinkedIn button linking to the DM-compose 
 6. Removed the typing animation and activity section; rewrote **About**; added the **footer CTA** + LinkedIn DM button.
 7. Replaced heading emojis with **custom icons**, then **baked icon + text** into single SVGs for perfect alignment; per-icon colors; theme-adaptive Tools gear.
 8. Merged to `main`, deleted the working branches, tidied the footer, and added **hover tooltips** to skill icons.
+9. Recreated the repo (delete + re-push clean history) to purge ~20 orphaned June-18 commits from the contribution graph; earned the **Quickdraw** and **YOLO** achievements.
+10. Expanded **Featured Work** to four projects (added Radiology Analytics App and ChatLens with new baked heading icons); rewrote copy with a hook line + bolded metrics; unified the professional-setting note.
+11. **Self-hosted every badge** (project metrics, tech logos, header pills, CTA) under `assets/badges/`, embedding simple-icons logos and hardening text with `textLength`; removed em dashes.
+12. Squash-merged the Featured Work work into `main` as a single commit.
