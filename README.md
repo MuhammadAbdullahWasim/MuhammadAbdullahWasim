@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Muhammad Abdullah — Data Scientist · Machine Learning · Analytics Engineering"/>
+<img src="assets/banner.svg" width="100%" alt="Muhammad Abdullah · Data Scientist · Machine Learning · Analytics Engineering"/>
 
 <br/>
 <br/>
