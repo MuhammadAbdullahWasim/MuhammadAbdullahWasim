@@ -165,7 +165,7 @@ Replaced delayed weekly and monthly reporting with **on-demand access to every K
 
 *A web app that broke radiology turnaround down deep enough to find exactly where cases were stalling.*
 
-Broke radiology turnaround down by **workflow stage, radiologist, modality, and shift**, refreshed **hourly** in place of the old weekly reports that showed only the headline number. Surfaced exactly where cases were stalling past a **24-hour SLA**, and acting on those bottlenecks **cut turnaround by more than 75%**, to well under the SLA. Added a geographic view across centers and a searchable, filterable case browser.
+Broke radiology turnaround down by **workflow stage, radiologist, modality, and shift**, refreshed **hourly** in place of the old weekly reports that showed only the headline number. Surfaced the exact points where cases breached the **24-hour SLA**, and acting on those bottlenecks **cut turnaround by more than 75%**, to well under the SLA. Added a geographic view across centers and a searchable, filterable case browser.
 
 ![Turnaround cut over 75%](assets/badges/m-turnaround.svg)
 ![Refresh hourly](assets/badges/m-refresh.svg)
@@ -183,9 +183,9 @@ Broke radiology turnaround down by **workflow stage, radiologist, modality, and 
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/h-chatlens-d.svg"/><img src="assets/icons/h-chatlens.svg" height="36" alt="ChatLens - Chat Intelligence"/></picture>
 
-*An LLM-integrated tool that turns long WhatsApp exports into a clear record of what was promised and what is still open.*
+*An LLM-integrated tool that turned long WhatsApp exports into a clear record of what was promised and what remained open.*
 
-Turns long WhatsApp chat exports into **structured business summaries** covering **action items, decisions, blockers, and open follow-ups**, from both a client-facing and an internal-team view. Pairs a fully local **rule-based engine** (English and Roman-Urdu) for in-browser processing with an optional **Claude or OpenAI API** layer for richer natural-language summaries. Parses both **Android and iOS** export formats with automatic date detection, and exports to **PDF**.
+Turned long WhatsApp chat exports into **structured business summaries** covering **action items, decisions, blockers, and open follow-ups**, from both a client-facing and an internal-team view. Paired a fully local **rule-based engine** (English and Roman-Urdu) for in-browser processing with an optional **Claude or OpenAI API** layer for richer natural-language summaries. Parsed both **Android and iOS** export formats with automatic date detection, and added **PDF** export.
 
 ![Engine rule-based and LLM](assets/badges/m-engine.svg)
 ![Languages English and Roman-Urdu](assets/badges/m-langs.svg)
